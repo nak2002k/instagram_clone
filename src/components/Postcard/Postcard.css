@@ -1,0 +1,87 @@
+.Postcard{
+    margin: 1.5rem 0 ;
+    padding: 1rem;
+    /* background-color: white;
+    border: 1px solid lightgray; */
+    border-radius: 4px;
+    background-color: #252427;
+    border: 1px solid #242427;
+}
+.upperline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.post__profile{
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+.upperline > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upperline > div > span {
+    font-weight: 550;
+    cursor: pointer;
+    
+}
+.upperline > div > span:hover {
+    text-decoration: underline;
+    
+}
+.bottomicons{
+    font-size: 25px;
+    padding-right: .7rem;
+    cursor: pointer;
+}
+.bottom__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomicons1{
+    font-size: 28px;
+    padding-right: .7rem;
+    cursor: pointer;
+}
+.lightertext{
+    font-weight: lighter;
+    color: gray;
+}
+.bottomcontent{
+    display: flex;
+    flex-direction: column;
+   padding-bottom:  1rem;
+    border-bottom: 1px solid lightgray;
+}
+.bottomcontent > span > b {
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.bottomcontent > span > b:hover {
+    text-decoration: underline;
+}
+.commentarea{
+    display: flex;
+    padding: .2rem .5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.commentarea > input {
+    flex: 1;
+    padding: 1rem;
+    
+    outline: none;
+    border: none;
+}
+.commentarea > a {
+    text-decoration: none;
+    color: #0194f6;
+    font-weight: 500;
+}
+.lightertext > small {
+    font-size: x-small;
+}

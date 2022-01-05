@@ -1,0 +1,33 @@
+.Profile_card{
+    display: flex;
+    padding: .5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.tras{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profilenames{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 180px;
+}
+.usrname{
+    font-weight: 500;
+    cursor: pointer;
+}
+.usrname:hover{
+    text-decoration: underline;
+}
+.nme{
+    font-weight: 400;
+    color: gray;
+}
+.Profile_card > a{
+    color: #0799F7;
+    font-weight: 600;
+    text-decoration: none;
+    
+}

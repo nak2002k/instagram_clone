@@ -1,0 +1,39 @@
+.sidebar{
+    margin-top: 2rem;
+    min-width: 23rem;
+    max-width: 24rem;
+    
+}
+.suggestions{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
+.suggestions > span{
+    color:#8E8E8F;
+    font-weight: 600;
+}
+.suggestions > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.last{
+    font-weight: 400;
+    font-size: smaller;
+    color: lightgrey;
+    text-align:justify;
+    cursor: pointer;
+}
+.last1{font-weight: 400;
+    font-size: smaller;
+    color: lightgrey;
+    text-align:justify;}
+
+
+@media screen and (max-width:801px) {
+ .sidebar {
+            display:none;}
+        
+        
+    }

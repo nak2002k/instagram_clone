@@ -1,0 +1,22 @@
+.mainarea{
+    margin-right: .5rem;
+    flex: 1;
+    overflow-y: scroll;
+}
+.mainarea::-webkit-scrollbar{
+    display: none;
+}
+.storyarea{
+    background-color: #252427;
+    border: 1px solid #242427;
+    border-radius: 4px;
+    display: flex;
+    padding: 7px;
+    margin: 2px;
+    overflow-x: scroll;
+    color: #FCFCFD !important;
+    
+}
+.storyarea::-webkit-scrollbar{
+    display:none;
+}

@@ -1,0 +1,21 @@
+.storyimage{
+border-radius: 50%;
+padding: 2px;
+border: 2.5px solid #E4475E;
+}
+
+.storycard{
+    cursor: pointer;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252427;
+    color: #FCFCFD !important;
+}
+.storycard > center{
+    text-align: center;
+    color: gray;}
+.colorde{
+        color: #FCFCFD !important;
+    }
